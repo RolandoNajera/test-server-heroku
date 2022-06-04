@@ -11,7 +11,7 @@ app.use(cors());
 
 app.get("/", (req, res) => res.send("cool!"));
 app.get("/users", async (req, res) => {
-    const users = await User.find()
+    const users = await User.find();
     res.status(200).json(users);
 });
 
