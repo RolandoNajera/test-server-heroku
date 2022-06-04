@@ -15,5 +15,5 @@ app.get("/users", async (req, res) => {
     res.status(200).json(users);
 });
 
-app.listen(process.env.PORT || '8080', () => console.log("runing!"))
+app.listen(process.env.PORT || '8080', () => console.log("server runing!"))
 
