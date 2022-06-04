@@ -4,6 +4,7 @@
   "description": "testing node js server in heroku",
   "main": "app.js",
   "scripts": {
+    "dev": "nodemon app.js",
     "start": "node app.js"
   },
   "repository": {
@@ -19,6 +20,8 @@
   "homepage": "https://github.com/RolandoNajera/test-server-heroku#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.18.1"
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.5"
   }
 }
